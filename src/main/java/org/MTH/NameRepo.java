@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class NameRepo {
 
-    private String[] names;
+    final private String[] names;
 
     public NameRepo(int size) {
         names = new String[size];
